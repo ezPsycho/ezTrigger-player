@@ -2,14 +2,9 @@
 # yarn lockfile v1
 
 
-"@ez-trigger/core@file:../core":
-  version "0.0.4"
-  dependencies:
-    esm "^3.0.72"
-    is-callable "^1.1.4"
-
-"@ez-trigger/core@file:C:/Users/Losses/development/fg01/core":
-  version "0.0.4"
+"@ez-trigger/core@https://github.com/ezPsycho/ezTrigger-core.git":
+  version "0.0.20"
+  resolved "https://github.com/ezPsycho/ezTrigger-core.git#b88fae07f48aac4272ad26a5b8d30905d5082912"
   dependencies:
     esm "^3.0.72"
     is-callable "^1.1.4"
