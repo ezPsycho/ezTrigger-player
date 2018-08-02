@@ -1,0 +1,8 @@
+{
+  "name": "ez-trigger-client-debugger",
+  "version": "0.0.1",
+  "description": "A simple debugging program for ezTriggerSystem's client",
+  "main": "index.html",
+  "author": "Losses Don",
+  "license": "MIT"
+}
