@@ -1,3 +1,5 @@
+import process from 'process';
+
 (() => {
   const { ipcRenderer, webFrame } = require('electron');
   const commandList = {};
@@ -9,7 +11,7 @@
   window.ezTrigger = {};
 
   window.ezTrigger.addRecord = data => {
-    const time = performance.now();
+    const time = process.hrtime();
     const recordToAdd = Object.assign({ time }, data);
     ipcRenderer.send('add-record', { data: recordToAdd });
   };
