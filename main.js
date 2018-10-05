@@ -6,7 +6,7 @@ import { app, BrowserWindow, ipcMain, protocol } from 'electron';
 
 import config from './config';
 import Client from './modules/Client';
-import Records from './modules/Records';
+import { Records } from '@ez-trigger/core';
 
 let mainWindow, packageInfo, packagePath, argvStartPosition;
 
