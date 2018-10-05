@@ -23,7 +23,7 @@ app.on('window-all-closed', () => {
 ipcMain.on('add-record', (event, arg) => records.add(arg.data));
 ipcMain.on('get-record', (event, arg) => event.sender.send('get-records', records.data)); // prettier-ignore
 ipcMain.on('export-record', async (event, arg) => {
-  const filePath = await records.export(config.exportPath, arg.filename);
+  const filePath = await records.export(arg.filename, config.exportPath);
   event.sender.send('exported-record', filePath);
 });
 
