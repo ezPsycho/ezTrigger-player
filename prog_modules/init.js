@@ -1,4 +1,5 @@
 import process from 'process';
+import getTimestamp from '@ez-trigger/core';
 
 (() => {
   const { ipcRenderer, webFrame } = require('electron');
@@ -11,7 +12,7 @@ import process from 'process';
   window.ezTrigger = {};
 
   window.ezTrigger.addRecord = data => {
-    const time = process.hrtime();
+    const time = getTimestamp();
     const recordToAdd = Object.assign({ time }, data);
     ipcRenderer.send('add-record', { data: recordToAdd });
   };

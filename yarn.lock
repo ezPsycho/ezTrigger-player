@@ -3,11 +3,13 @@
 
 
 "@ez-trigger/core@https://github.com/ezPsycho/ezTrigger-core.git":
-  version "0.0.20"
-  resolved "https://github.com/ezPsycho/ezTrigger-core.git#b88fae07f48aac4272ad26a5b8d30905d5082912"
+  version "0.0.22"
+  resolved "https://github.com/ezPsycho/ezTrigger-core.git#e72eacf48559c9ef60c23378e99f23688169c88d"
   dependencies:
+    csv-stringify "^4.3.1"
     esm "^3.0.72"
     is-callable "^1.1.4"
+    moment "^2.22.2"
 
 "@types/node@^8.0.24":
   version "8.10.21"
@@ -120,6 +122,12 @@ concat-stream@1.6.2:
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
+
+csv-stringify@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/csv-stringify/-/csv-stringify-4.3.1.tgz#7bee36f746ef555dd481a735a9e2938965f8478b"
+  dependencies:
+    lodash.get "~4.4.2"
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -427,6 +435,10 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
+lodash.get@~4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+
 loud-rejection@^1.0.0:
   version "1.6.0"
   resolved "http://registry.npm.taobao.org/loud-rejection/download/loud-rejection-1.6.0.tgz#5b46f80147edee578870f086d04821cf998e551f"
@@ -482,6 +494,10 @@ mkdirp@0.5.1:
   resolved "http://registry.npm.taobao.org/mkdirp/download/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+moment@^2.22.2:
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
 ms@2.0.0:
   version "2.0.0"
