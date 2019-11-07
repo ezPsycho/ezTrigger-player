@@ -11,7 +11,7 @@
   "private": false,
   "dependencies": {
     "@ez-trigger/core": "https://github.com/ezPsycho/ezTrigger-core.git",
-    "electron": "^2.0.5",
+    "electron": "^2.0.18",
     "esm": "^3.0.72"
   }
 }

@@ -179,9 +179,9 @@ electron-download@^3.0.1:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
-electron@^2.0.5:
-  version "2.0.5"
-  resolved "http://registry.npm.taobao.org/electron/download/electron-2.0.5.tgz#6045db011e2547062a36e8c5da84d4982f434fc0"
+electron@^2.0.18:
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.18.tgz#52f1b248c3cc013b5a870094de3b6ba5de313a0f"
   dependencies:
     "@types/node" "^8.0.24"
     electron-download "^3.0.1"
